@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="vn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>facebook</title>
+    
+  </head>
+  <body>
+    <div class="container">
+      <!-- giao diện chính bên trái -->
+      <div class="container__form container--left">
+        <!--icon facebook-->
+        <div class="form__titile title--main">
+         <h2>Facebook</h2>
+        </div>
+        <!--thông tin-->
+        <div class="form__information">
+          <h2>Đăng nhập gần đây</h2>
+          <p>Nhấp vào ảnh của bạn hoặc thêm tài khoản.</p>
+        </div>
+        <!--all nicks-->
+        <div class="form__nicks">
+          <!--one nick-->
+          <div class="nick__form nick--first">
+            <span title="1 thông báo">1</span>
+            <a class="icon--closed">x</a>
+            <a href="" class="link--text">
+              <img
+                src="../anhcay.jpg"
+                alt="anh dai dien"
+              />
+              <div class="nick__name name--oneline">Nam</div>
+            </a>
+          </div>
+          <!--second nick-->
+          <div class="nick__form nick--second">
+            <span title="99 thông báo">99+</span>
+            <a class="icon--closed">x</a>
+            <a href="" class="link--text">
+              <img
+                src="../anhThienNhien.jpg"
+                alt=""
+              />
+              <div class="nick__name">Trọng</div>
+            </a>
+          </div>
+          <!--three nick-->
+          <div class="nick__form nick--three">
+            <a href="" class="link--text">
+              <div class="form__icon">
+                <div class="form--center">
+                  <span>+</span>
+                </div>
+              </div>
+              <div class="nick__name name--twoline">Thêm tài khoản</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- giao diện chính bên phải -->
+      <div class="container__form container--right">
+        <!--from đăng ký-->
+        <div class="container__form form--main">
+          <div class="container__form-center">
+            <!--input tài khoản-->
+            <input
+              class="form__informations information--name"
+              type="text"
+              name="name"
+              placeholder="Email hoặc số điện thoại"
+            />
+            <!--input mật khẩu-->
+            <input
+              class="form__informations information--password"
+              type="password"
+              name="password"
+              placeholder="Mật khẩu"
+            />
+            <!--nút xác nhận-->
+            <button
+              class="form__informations information--login"
+              onclick="windown.print()"
+              type="button"
+            >
+              Đăng nhập
+            </button>
+          </div>
+          <p class="form__link">
+            <a class="form__link link--forgotPassword" href=""
+              >Quên mật khẩu?</a
+            >
+          </p>
+          <hr />
+          <div class="form__boxLink">
+            <a class="link--createAccount" href="">Tạo tài khoản mới</a>
+          </div>
+        </div>
+        <!--tạo trang mới-->
+        <div class="container__form form--out">
+          <p class="container__createPage">
+            <a class="container__link" href="">Tạo Trang </a>dành cho người nổi
+            tiếng, nhãn hiệu hoặc doanh nghiệp.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- giao diện chân web-->
+
+    <div class="footer">
+      <!--tùy chọn ngôn ngữ-->
+      <div class="languege iteam--size">
+        <li class="languege__iteam" style="color: #737373">Tiếng Việt</li>
+        <li class="languege__iteam"><a href="">English (UK)</a></li>
+        <li class="languege__iteam"><a href="">中文(台灣)</a></li>
+        <li class="languege__iteam"><a href="">日本語</a></li>
+        <li class="languege__iteam"><a href="">한국어</a></li>
+        <li class="languege__iteam"><a href="">ภาษาไทย</a></li>
+        <li class="languege__iteam"><a href="">Français (France)</a></li>
+        <li class="languege__iteam"><a href="">Español</a></li>
+        <li class="languege__iteam"><a href="">Português (Brasil)</a></li>
+        <li class="languege__iteam"><a href="">Deutsch</a></li>
+        <li class="languege__iteam"><a href="">Italiano</a></li>
+        <li class="languege__iteam iteam--icon">
+          <a href="" style="text-decoration: none">+</a>
+        </li>
+      </div>
+      <!--đường kẻ ngang-->
+      <div class="horizontalLine iteam--size"></div>
+      <!--tùy chọn chức năng-->
+      <div class="option iteam--size">
+        <li class="option__iteam"><a href="">Đăng ký</a></li>
+        <li class="option__iteam"><a href="">Đăng nhập</a></li>
+        <li class="option__iteam"><a href="">Messenger</a></li>
+        <li class="option__iteam"><a href="">Facebook Lite</a></li>
+        <li class="option__iteam"><a href="">Watch</a></li>
+        <li class="option__iteam"><a href="">Danh bạ</a></li>
+        <li class="option__iteam"><a href="">Trang</a></li>
+        <li class="option__iteam"><a href="">Hạng mục Trang</a></li>
+        <li class="option__iteam"><a href="">Địa điểm</a></li>
+        <li class="option__iteam"><a href="">Trò chơi</a></li>
+        <li class="option__iteam"><a href="">Vị trí</a></li>
+        <li class="option__iteam"><a href="">Matketplace</a></li>
+        <li class="option__iteam"><a href="">Facebook Pay</a></li>
+        <li class="option__iteam"><a href="">Nhóm</a></li>
+        <li class="option__iteam"><a href="">Việc làm</a></li>
+        <li class="option__iteam"><a href="">Oculus</a></li>
+        <li class="option__iteam"><a href="">Portal</a></li>
+        <li class="option__iteam"><a href="">Instagram</a></li>
+        <li class="option__iteam"><a href="">Địa phương</a></li>
+        <li class="option__iteam"><a href="">Chiến dịch gây quỹ</a></li>
+        <li class="option__iteam"><a href="">Dịch vụ</a></li>
+        <li class="option__iteam">
+          <a href="">Trung tâm thông tin bỏ phiếu</a>
+        </li>
+        <li class="option__iteam"><a href="">Giới thiệu</a></li>
+        <li class="option__iteam"><a href="">Tạo quảng cáo</a></li>
+        <li class="option__iteam"><a href="">Tạo trang</a></li>
+        <li class="option__iteam"><a href="">Nhà phát triển</a></li>
+        <li class="option__iteam"><a href="">Tuyển dụng</a></li>
+        <li class="option__iteam"><a href="">Quyền riêng tư</a></li>
+        <li class="option__iteam"><a href="">Cookie</a></li>
+        <li class="option__iteam"><a href="">Lựa chọn quảng cáo icon</a></li>
+        <li class="option__iteam"><a href="">Điều khoản</a></li>
+        <li class="option__iteam"><a href="">Trợ giúp </a></li>
+      </div>
+      <!--thông tin năm-->
+      <div class="publish iteam--size">
+        <span>Facebook &#169; 2021</span>
+      </div>
+    </div>
+  </body>
+</html>
